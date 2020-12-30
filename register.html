@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <nav class="container1">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="photos/logo.png" alt=""></a>
+            </div>
+            <div class="navList">
+                <ul class="list">
+                    <li class="listItems"><a href="index.html">Home</a></li>
+                    <li class="listItems"><a href="register.html">Person Registration</a></li>
+                    <li class="listItems"><a href="photoandvideo.html">Photos <span class="colorchange">and
+                                Videos</span></a></li>
+                    <li class="listItems"><a href="aboutUs.html"><span class="colorchange">About Us</span></a></li>
+                    <li class="listItems"><a href="contactUs.html"><span class="colorchange">Contact Us</span></a></li>
+                </ul>
+            </div>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+
+        <form name="form" action="#" class="container mt-5" id="register">
+
+            <ul class="register-group">
+
+                <li class="registerList mt-3">
+                    <label class="textLabel">First Name </label>
+                    <br>
+                    <input type="text" placeholder="First Name" class="boxs" id="firstName" autofocus>
+                </li>
+
+                <li class="registerList mt-3 ">
+                    <label class="textLabel">Last Name </label><br>
+                    <input type="text" placeholder="Last Name" class="boxs" id="lastName">
+                </li>
+
+                <li class="registerList mt-3">
+                    <label class="textLabel">Date Of birth </label><br>
+                    <input type="datetime" placeholder="01/01/2000" class="boxs" id="birthDay">
+                </li>
+
+                <li class="registerList mt-3"><label class="textLabel">
+                    </label>Employed<br>
+                    <input type="radio" name="employee" id="employee" value="Yes" class="gInput">
+                    <label for="employee" class="gender">Yes</label>
+                    <input type="radio" name="employee" id="unEmployed" class="gInput" value="No">
+                    <label for="uNEmployed" class="gender">No</label>
+                </li>
+
+                <li class="registerList mt-3">
+                    <label class="textLabel">Address </label> <br>
+                    <textarea name="text" id="address" cols="25" rows="4" placeholder="125/5 No:4 Turkey"
+                        class="boxs"></textarea>
+                </li>
+
+                <li class="registerList mt-3"><label class="textLabel">Hobbies </label><br>
+                    <input type="checkbox" name="checkbox2" class="checkbox1" id="hobbiesSW" value="Swimming">
+                    <label for="hobbiesSW" class="checkboxText">Swimming</label>
+                    <input type="checkbox" class="checkbox1" name="checkbox2" id="hobbiesRB" value="Reading Book">
+                    <label for="hobbiesRB" class="checkboxText">Reading Book</label>
+                    <br>
+                    <input type="checkbox" class="checkbox1" name="checkbox2" id="hobbiesWT" value="Watching TV">
+                    <label for="hobbiesWT" class="checkboxText">Watching TV</label>
+                    <input type="checkbox" class="checkbox1" name="checkbox2" id="hobbiesPg" value="Programming">
+                    <label for="hobbiesPg" class="checkboxText">Programming</label>
+
+                </li>
+
+                <li class="registerList mt-3">
+                    <label>Gender </label> <br>
+                    <input type="radio" name="gender" id="male" class="gInput gender1" value="Male">
+                    <label for="male" class="gender">Male</label>
+                    <input type="radio" name="gender" id="female" class="gInput gender1" value="Female">
+                    <label for="female" class="gender">Female</label>
+                </li>
+
+            </ul>
+
+            <button class="btn btn-light" id="submit" type="submit">Submit</button>
+        </form>
+
+        <table class="table table-dark table-striped " id="table">
+            <thead>
+                <tr>
+                    
+                    <th scope="col">First Name</th>
+                    <th scope="col">Last Name</th>
+                    <th scope="col">Date Of Birth</th>
+                    <th scope="col">Employed</th>
+                    <th scope="col">Address</th>
+                    <th scope="col">Hobbies</th>
+                    <th scope="col">Gender</th>
+                </tr>
+            </thead>
+            <tbody class="item-list">
+
+            </tbody>
+        </table>
+
+
+
+
+        </div>
+    </main>
+
+
+
+
+    <footer class="footer">
+        <div class="footerContainer">
+            <div class="menuUnder container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-6 footerMenuItems"><a class="link"
+                            href="index.html">Home</a></div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-6 footerMenuItems"><a class="link"
+                            href="register.html">Person Registration</a></div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-6 footerMenuItems"><a class="link"
+                            href="photoandvideo.html">Photos and Videos</a></div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-6 footerMenuItems"><a class="link"
+                            href="aboutUs.html">About Us</a></div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-6 footerMenuItems"><a class="link"
+                            href="contactUs.html">Contact Us</a></div>
+                </div>
+            </div>
+            <div class="socialMediaIcon">
+                <h5 class="join">Follow Us</h5>
+                <div class="container socialContainer">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-12 icon">
+                            <img src="photos/Social Media/facebook.png" alt="Facebook">
+                            <a href="https://www.facebook.com/profile.php?id=100005487344726"
+                                class="socialText facebook" target="_blank">Facebook</a>
+                        </div>
+
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-12 icon">
+                            <img src="photos/Social Media/instagram.png" alt="Instagram">
+                            <a href="https://www.instagram.com/e_yavass/" class="socialText instagram"
+                                target="_blank">İnstagram</a>
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-12 icon">
+                            <img src="photos/Social Media/twitter.png" alt="Twitter">
+                            <a href="https://twitter.com/Emre_yavas35" class="socialText twitter"
+                                target="_blank">Twitter</a>
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-12 icon">
+                            <img src="photos/Social Media/youtube.png" alt="Youtube">
+                            <a href="https://www.youtube.com/channel/UCNM2v0PBOhcFnKUKGhy6Mkg?view_as=subscriber"
+                                class="socialText youtube" target="_blank">Youtube</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
