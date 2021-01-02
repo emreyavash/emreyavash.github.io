@@ -1,6 +1,0 @@
-@media only screen and (min-width:1320px) and (max-width:1439px){  /* XL */} ok
-@media only screen and (min-width:1200px) and (max-width:1319px){  /* L */} ok
-@media only screen and  (min-width:1000px) and (max-width:1199px){  /* L-2 */}ok
-@media only screen and (min-width:750px) and (max-width:999px){  /* M */}
-@media only screen and (min-width:540px) and (max-width:749px) {  /* SM */}
-@media only screen  and (max-width:539px) {  /* XS */}

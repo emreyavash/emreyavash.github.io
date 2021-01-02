@@ -43,6 +43,11 @@ body{
     background: linear-gradient(to right, #d7d2cc, #304352); 
 }
 
+#pictureAbout img{
+    width: 500px;
+    height: 500px;
+    margin-top: -100px;
+}
 .logo{
     width: 150px;
     height: 50px;
@@ -212,6 +217,11 @@ body{
     .burger{
         display: none;
     }
+    #pictureAbout img{
+        width: 400px;
+        height: 400px;
+       
+    }
 }
 @media only screen and  (min-width:1000px) and (max-width:1199px){  /* L-2 */
     .navbar{
@@ -242,6 +252,11 @@ body{
     }
     .burger{
         display: none;
+    }
+    #pictureAbout img{
+        width: 370px;
+        height: 370px;
+       margin-left: -40px;
     }
 }
 @media only screen and (min-width:750px) and (max-width:999px){  /* M */
@@ -321,6 +336,11 @@ body{
     .sliderDiv img{
         width: 100%;
         height: 400px;
+    }
+    #pictureAbout img{
+        width: 400px;
+        height: 400px;
+       margin-left: -30px;
     }
     
     @keyframes burgerList {
@@ -409,6 +429,11 @@ body{
         width: 100%;
         height: 300px;
     }
+    #pictureAbout img{
+        width: 500px;
+        height: 400px;
+       margin-bottom: -150px;
+    }
 
     @keyframes burgerList {
         from{
@@ -496,7 +521,12 @@ body{
         width: 100%;
         height: 300px;
     }
-
+    #pictureAbout img{
+        width: 400px;
+        height: 400px;
+       margin-left: 30px;
+       margin-bottom: -70px;
+    }
     @keyframes burgerList {
         from{
             opacity: 0;
